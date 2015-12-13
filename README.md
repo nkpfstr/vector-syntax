@@ -1,6 +1,6 @@
 # DuoTone Syntax
 
-> Note: This theme isn't published. It serves as the master template for all DuoTone theme. See "Create your own DuoTone theme" for a guide.
+> Note: This theme isn't published. It serves as the master template for all DuoTone themes.
 
 A double-hue syntax theme for Atom.
 
