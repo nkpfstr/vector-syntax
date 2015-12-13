@@ -35,6 +35,11 @@ DuoTone themes use only 2 hues (7 shades in total). It __tones down__ less impor
 More optimization to come..
 
 
+## DuoTone themes
+
+Here a list with __all__ [DuoTone themes](https://atom.io/themes/search?utf8=%E2%9C%93&q=keyword:duotone). Or at least the ones that have the `duotone` keyword added. :grin:
+
+
 ## Create your own DuoTone theme
 
 Here a guide how to create your own DuoTone version.
