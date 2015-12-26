@@ -1,13 +1,15 @@
 {
-  "name": "duotone-syntax",
+  "name": "molten-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
-  "description": "Master template for DuoTone syntax themes",
+  "version": "0.0.0",
+  "description": "A volcanic syntax theme for Atom. Based on Simurai's Duotone Syntax.",
   "keywords": [
     "duotone",
-    "syntax"
+    "syntax",
+    "orange",
+    "fire"
   ],
-  "repository": "https://github.com/simurai/duotone-syntax",
+  "repository": "https://github.com/nkpfstr/molten-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
