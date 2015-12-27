@@ -1,15 +1,16 @@
 {
-  "name": "molten-syntax",
+  "name": "vector-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A volcanic syntax theme for Atom. Based on Simurai's Duotone Syntax.",
+  "description": "A radical syntax theme inspired by the outrageous style of the eighties. Based on Simurai's Duotone Syntax.",
   "keywords": [
     "duotone",
     "syntax",
-    "orange",
-    "fire"
+    "eighties",
+    "pink",
+    "blue"
   ],
-  "repository": "https://github.com/nkpfstr/molten-syntax",
+  "repository": "https://github.com/nkpfstr/vector-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
