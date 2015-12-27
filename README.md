@@ -1,8 +1,8 @@
-# Molten Syntax
+# Vector Syntax
 
-A volcanic syntax theme for Atom. Based on Simurai's [DuoTone Syntax]().
+A radical syntax theme inspired by the outrageous style of the eighties. Based on Simurai's [DuoTone Syntax](https://github.com/simurai/duotone-syntax).
 
-![screenshot]()
+![screenshot](https://dl.dropboxusercontent.com/u/3106750/github/vector-syntax-screenshot.png)
 
 ### Currently tested and optimized for these languages:
 
