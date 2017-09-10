@@ -1,14 +1,30 @@
 // SASS
 
-.sass {
-  .at-rule {
+.syntax--sass {
+  .syntax--at-rule .syntax--at-rule {
     &,
-    > .punctuation {
+    > .syntax--punctuation {
       .uno-1();
     }
   }
-  .mixin > .variable,
-  .include > .variable {
+  .syntax--mixin + .syntax--function,
+  .syntax--include + .syntax--function {
     .duo-2();
+  }
+  &.syntax--property-value {
+    .duo-1();
+    .syntax--function {
+      .uno-2();
+    }
+    .syntax--punctuation {
+      .uno-5();
+    }
+  }
+  &.syntax--variable.syntax--parameter.syntax--url {
+    .duo-1();
+  }
+  &.syntax--class,
+  &.syntax--parent-selector-suffix {
+    .uno-1();
   }
 }

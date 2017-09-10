@@ -1,78 +1,72 @@
 // Language syntax highlighting
 
-.uno-1 { color: @uno-1; } // .... Strong
-.uno-2 { color: @uno-2; } // ...   |
-.uno-3 { color: @uno-3; } // ..    v
-.uno-4 { color: @uno-4; } // .    Weak
-
-.duo-1 { color: @duo-1; } // .... Strong
-.duo-2 { color: @duo-2; } // ...   |
-.duo-3 { color: @duo-3; } // .    Weak
-
-
 // Mixins -----------------------------------
-.punctuation-mixin(@color:@uno-4) {
-  .punctuation,
-  .bracket,
-  .brace {
-    color: @color;
+.punctuation-mixin() {
+  .syntax--punctuation,
+  .syntax--bracket,
+  .syntax--brace {
+    .uno-5();
   }
-  .string .punctuation {
+  .syntax--string .syntax--punctuation {
     .duo-3();
   }
 }
 
-
-// Uno hue -----------------------------------
-
-// this basically matches everything without a specific scope
-// so we put it first
-.meta {
-  .uno-4();
-}
-
-.html.elements,
-.entity,
-.tag,
-.function-call {
-  .uno-1();
-}
-
-.variable,
-.character.escape,
-.html.attribute-name,
-.css.pseudo-element {
+// Default color -----------------------------------
+// Will be used by all languages when no other scope is defined.
+.syntax--source {
   .uno-2();
 }
 
-.support {
+// Uno hue -----------------------------------
+
+.syntax--html.syntax--elements,
+.syntax--entity,
+.syntax--tag,
+.syntax--function-call {
+  .uno-1();
+}
+
+.syntax--attribute-name,
+.syntax--character.syntax--escape {
   .uno-3();
 }
 
+.syntax--support {
+  .uno-4();
+}
+
+// Uno hue -----------------------------------
+
+.syntax--variable {
+  .uno-3();
+}
 
 // Duo hue -----------------------------------
-.string,
-.constant,
-.storage.type {
+.syntax--string,
+.syntax--constant,
+.syntax--storage.syntax--type {
   .duo-1();
 }
 
-.keyword,
-.storage {
+.syntax--keyword,
+.syntax--storage {
   .duo-2();
 }
-
 
 // Punctuation -----------------------------------
 .punctuation-mixin();
 
-
 // Comments -----------------------------------
-.comment {
+.syntax--comment {
   .uno-4();
+  font-style: italic;
 }
 
-
 // Text styles -----------------------------------
-.bold { font-weight: bold; }
-.italic { font-style: italic; }
+.syntax--bold {
+  font-weight: bold;
+}
+.syntax--italic {
+  font-style: italic;
+}
