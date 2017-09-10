@@ -2,8 +2,11 @@
   "name": "vector-syntax",
   "theme": "syntax",
   "version": "0.3.0",
-  "repository": "https://github.com/nkpfstr/vector-syntax",
+  "description": "An eighties-inspired syntax theme. Based on Simurai's Duotone Syntax.",
+  "keywords": ["duotone", "syntax", "eighties", "pink", "blue"],
+  "repository": "https://github.com/polymoon/vector-syntax",
   "license": "MIT",
   "engines": {
+    "atom": ">=1.13.0 <2.0.0"
   }
 }
