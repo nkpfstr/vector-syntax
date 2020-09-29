@@ -2,7 +2,7 @@
 
 An eighties-inspired syntax theme. Based on Simurai's [DuoTone Syntax](https://github.com/simurai/duotone-syntax).
 
-![screenshot](https://dl.dropboxusercontent.com/u/3106750/github/vector-syntax-screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/pfist/vector-syntax/master/screenshot.png)
 
 ### Currently tested and optimized for these languages:
 
