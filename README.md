@@ -4,28 +4,17 @@ An eighties-inspired syntax theme. Based on Simurai's [DuoTone Syntax](https://g
 
 ![Screenshot](https://raw.githubusercontent.com/pfist/vector-syntax/master/screenshot.png)
 
-### Currently tested and optimized for these languages:
+> The font used in the screenshots above is [Office Code Pro](https://github.com/nathco/Office-Code-Pro).
 
-- C
-- Clojure
-- CoffeeScript
-- C#
-- CSS
-- GF Markdown
-- Go
-- Haskell
-- HTML
-- Java
-- JavaScript
-- JSON
-- Less
-- Perl
-- PHP
-- Python
-- Ruby
-- SASS
-- SCSS
-- Stylus
-- (La-)TeX
-- XML
-- YAML
+# Install
+
+From the command line:
+
+`apm install vector-syntax`
+
+If the command line isn't your thing:
+
+- Go to **Settings > Install**
+- Search for `vector syntax` and click **Install**
+- Go to **Settings > Themes** and choose **Pure Dark** from the dropdown menu
+- Happy coding! ♥
